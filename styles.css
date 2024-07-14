@@ -1,4 +1,62 @@
-.card-title{
-    text-align: right;
 
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.extcard{
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.5);
+
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 1.25rem;
+    text-align: center;
+}
+img{
+    padding: 50px;
+    padding-bottom: 1.3rem;
+}
+.social-icons{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 20px;
+}
+.icon{
+    font-size: 3rem;
+    color: #000;
+}
+.insta:hover {
+  color: #0df3aa;
+}
+.whats:hover {
+  color: #00dd30;
+}
+.google:hover {
+  color: #f40f72;
+}
+.linked:hover {
+  color: #007bff;
 }
